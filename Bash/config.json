@@ -1,0 +1,5 @@
+{
+  "url": "https://api.example.org",
+  "timeout": 20,
+  "token": "abc"
+}
