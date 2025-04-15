@@ -1,6 +1,6 @@
 ﻿# Pfade zur Konfigurationsdatei
-$jsonPath = Join-Path -Path $PSScriptRoot -ChildPath "config.json"
-$psd1Path = Join-Path -Path $PSScriptRoot -ChildPath "config.psd1"
+$jsonPath = Join-Path -Path $PSScriptRoot -ChildPath "config_json.json"
+$psd1Path = Join-Path -Path $PSScriptRoot -ChildPath "config_psd1.psd1"
 $config = $null
 
 # Wenn JSON-Datei existiert, diese laden
